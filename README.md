@@ -3,8 +3,7 @@
 ## Csapattagok 
 - Harczi Gergő, ő csinálja a Mercedes, Történet és Red Bull oldalát.
 - Kiss Bálint, ő alkotja a Kezdőlap, Mclaren, és Versenynaptár oldalát. 
-- Hegedűs Márk, ő készíti a Szabályok, Ferrari és a Versenypályák oldalát. \
-  Közösen csináljuk a css-t és a versenynaptárat.
+- Hegedűs Márk, ő készíti a Szabályok, Ferrari és a Versenypályák oldalát. 
 
 ### Tartalom
 A kezőlap hasonlítani fog a Forma 1 hivatalos oldalára, azonban nem teljesen lesz azonos.
