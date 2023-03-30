@@ -28,3 +28,11 @@ Ezen az oldalon végig lehet majd követni a száguldó cirkusz történetét a 
 A Mercedes oldalán látható lesz majd a csapat-csapattagok bemutatása, az elért eredményeiket és az idei autójukat.
 - Red Bull:
 A Red Bull oldalán látható lesz majd a csapat-csapattagok bemutatása, az elért eredményeiket és az idei autójukat.
+
+#### Hegedüs Márk
+- Szabályok:
+A Forma-1 szabályainak (zászlók, a verseny lebonyolítása, versenyszabályok, technikai szabályok, stb.).
+- Pályák:
+Ezen az oldalon a Forma-1 különböző pályáinak ismertetése lesz található (Név, típus, hossz, szezonok, stb.).
+-Ferrari:
+A ferrari oldalon a ferrari bemutatása, eredményei, pilótái, autói lesznek láthatóak. 
