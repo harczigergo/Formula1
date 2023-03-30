@@ -1,9 +1,10 @@
 # Forma 1 
 
 ## Csapattagok: 
-- Harczi Gergő
-- Kiss Bálint Simon
-- Hegedűs Márk
+- Harczi Gergő, ő csinálja a Mercedes, Alfa Romeo, Alpha Tauri és Red Bull oldalát.
+- Kiss Bálint, ő alkotja a Kezdőlap, Mclaren, Alpine, és a readme oldalát.
+- Hegedűs Márk, ő készíti a Williams, Haas, Ferrari és az Aston Martin oldalát. \
+  Közösen csináljuk a css-t és a versenynaptárat.
 
 # Tartalom
 A kezőlap hasonlítani fog a Forma 1 hivatalos oldalára, azonban nem teljesen lesz azonos.
