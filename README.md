@@ -34,5 +34,5 @@ A Red Bull oldalán látható lesz majd a csapat-csapattagok bemutatása, az el�
 A Forma-1 szabályainak (zászlók, a verseny lebonyolítása, versenyszabályok, technikai szabályok, stb.).
 - Pályák:
 Ezen az oldalon a Forma-1 különböző pályáinak ismertetése lesz található (Név, típus, hossz, szezonok, stb.).
--Ferrari:
+- Ferrari:
 A ferrari oldalon a ferrari bemutatása, eredményei, pilótái, autói lesznek láthatóak. 
