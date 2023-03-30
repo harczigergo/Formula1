@@ -14,9 +14,17 @@ Az oldal letisztult, kifinomult megjelenéssel fog előállni.
 
 
 #### Kiss Bálint oldalai 
-- Kezdőlap 
+- Kezdőlap: 
 A kezdőlapon látható lesz minden friss hír, és onnan lehet kiindulni a többi oldalra. Képek és hírek lesznek csak rajta minimalista megoldással.
-- Mclaren
+- Mclaren:
 A Mclaren oldalon látható lesz a csapat, a csapattagok az elért eredményük, teljesítményük, és pilótáinak az egyéni eredményei, képek az autóról a pilótákról. 
-- Versenynaptár 
+- Versenynaptár: 
 Olyan stílusban lesz írva mint egy naptár, könnyen áttekinthető, és fontos információkat tartalmaz majd. 
+
+#### Harczi Gergő oldalai
+- Történelem:
+Ezen az oldalon végig lehet majd követni a száguldó cirkusz történetét a kezdetektől egészen a mai napig.
+- Mercedes:
+A Mercedes oldalán látható lesz majd a csapat-csapattagok bemutatása, az elért eredményeiket és az idei autójukat.
+- Red Bull:
+A Red Bull oldalán látható lesz majd a csapat-csapattagok bemutatása, az elért eredményeiket és az idei autójukat.
