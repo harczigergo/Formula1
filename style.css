@@ -2,3 +2,10 @@
     width: 85px;
     
 }
+
+.card img{
+    width: 1920px;
+    border: 2cm;
+    border-color: black;
+    
+}
