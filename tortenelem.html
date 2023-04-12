@@ -1,94 +1,119 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css">
-    <title>Kezdőlap</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body class="">
 
-    <nav class="navbar navbar-expand-lg bg-danger">
-      <div class="container-fluid bg-danger bg-gradient fst-italic fw-bold">
-        <a class="navbar-brand text-white " href="#"><img src="F1 logoo.png" alt="F1 Logo" title="F1 Logo"></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarNavDropdown">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Szabályok</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Versenypályák</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Történelem</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Versenynaptár</a>
-            </li>
-            <li class="nav-item dropdown ">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Csapatok
-              </a>
-              <ul class="dropdown-menu bg-body-secondary  ">
-                <li><a class="dropdown-item text-black fw-bold" href="#">Mercedes</a></li>
-                <li><a class="dropdown-item text-primary fw-bold" href="#">Red Bull</a></li>
-                <li><a class="dropdown-item text-warning fw-bold" href="#">Mclaren</a></li>
-                <li><a class="dropdown-item text-danger fw-bold" href="#">Ferrari</a></li>
-              </ul>
-            </li>
-          </ul>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Kezdőlap</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="">
+
+  <nav class="navbar navbar-expand-lg bg-danger">
+    <div class="container-fluid bg-danger bg-gradient fst-italic fw-bold">
+      <a class="navbar-brand text-white " href="#"><img src="kepek/F1 logoo.png" alt="F1 Logo" title="F1 Logo"
+          href="main.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="szabalyok.html">Szabályok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Versenypályák</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="tortenelem.html">Történelem</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Versenynaptár</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Csapatok
+            </a>
+            <ul class="dropdown-menu bg-body-secondary  ">
+              <li><a class="dropdown-item text-black fw-bold" href="#">Mercedes</a></li>
+              <li><a class="dropdown-item text-primary fw-bold" href="#">Red Bull</a></li>
+              <li><a class="dropdown-item text-warning fw-bold" href="#">Mclaren</a></li>
+              <li><a class="dropdown-item text-danger fw-bold" href="#">Ferrari</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <div data-aos="fade-up" class="row w-100 aos-init aos-animate">
+    <div class="col">
+      <div data-aos="fade-up" class="card cardsor aos-init aos-animate">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="kepek/Silverstone 1950.jpg" class="card-img-top" alt="Az első, silverstone-i pálya"
+                title="Az első, silverstone-i pálya">
+              <div class="card-body">
+                <h5 class="card-title">Megszületik a Forma-1</h5>
+                <p class="card-text">Már a 30-as években felmerült a grand prix-k világbajnokságba való szervezése, de a
+                  második világháború közbeszólt, így az európai autóversenyzés csak a 40-es évek végén éledt újra.
+                  1947-ben
+                  foglalták össze a csúcskategória műszaki előírásait, ez lett a Forma-1, az első bajnoki idényt pedig
+                  1950-ben rendezték, a legelső futam a silverstone-i Brit Nagydíj volt.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="kepek/1950-60.jpg" class="card-img-top" alt="1950-60" title="1950-60">
+              <div class="card-body">
+                <h5 class="card-title">1950-60</h5>
+                <p class="card-text">Az 50-60-as évek fordulóján megjelent és azonnal elterjedt a középmotoros
+                  konstrukció,
+                  és a szivar alakú kocsik. Az F1 történetének egyik legnagyobb mérnöke, a Lotus-alapító Colin
+                  Chapman
+                  számos újítással gazdagította a sportot a következő évtizedben</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="kepek/1977 Renault.jpg" class="card-img-top" alt="1977 Renault RS01" title="1977 Renault RS01">
+              <div class="card-body">
+                <h5 class="card-title">A Renault, mint forradalmár</h5>
+                <p class="card-text">Az F1-be 1977-ben belépő Renault hozta a sportág következő nagy újítását. A francia
+                  gyártó turbómotorjai kezdetben ugyan siralmasan megbízhatatlanok voltak, de a technológia elterjedt és
+                  egy
+                  évtizedig uralta a száguldó cirkuszt, az erőforrások az egészen elképesztő, 1000 lóerő feletti
+                  teljesítményt is hozták.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="kepek/Bernie-Ecclestone.jpg" class="card-img-top" alt="Bernie Ecclestone “az F1 ura”" title="Bernie Ecclestone “az F1 ura”"> 
+              <div class="card-body">
+                <h5 class="card-title">Forma-1, mint üzlet</h5>
+                <p class="card-text">Az évtized az F1 globalizálódásának és üzletiesedésének kezdetét is jelentette,
+                  miután a Brabham csapatfőnöke, egy bizonyos Bernie Ecclestone előbb a konstruktőrök szövetségének
+                  vezetőjeként egységessé tette a sportág szervezését, majd ügyes húzásaival lassan a saját kezébe
+                  kaparintotta az F1 teljes üzleti oldalát, hogy végül megkapja “az F1 ura” jelzőt.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <br>
-    <div data-aos="fade-up" class="row w-100 aos-init aos-animate">
-      <div class="col">
-        <div data-aos="fade-up" class="card cardsor aos-init aos-animate">
-      <div class="card" style="width: 18rem;">
-        <img src="kezdet.jpg" class="card-img-top" alt="1950 az első F1-es Nagydíj" title="1950 az első F1-es Nagydíj">
-        <div class="card-body">
-          <h5 class="card-title">Kezdet</h5>
-          <p class="card-text">Több mint hetven évvel ezelőtt, 1950. május 13-án, 21 különálló versenyautó motorját indították be Silverstone-ban. Ekkor kezdődött meg a Brit F1 Nagydíj és egy új korszaka is a motorsportnak.
-          </p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="1950.jpg" class="card-img-top" alt="Juan Manuel Fangio" title="Juan Manuel Fangio">
-        <div class="card-body">
-          <h5 class="card-title">1950</h5>
-          <p class="card-text">Az F1 osztály poros indulása után, a Ferrari és a Mercedes-Benz új autói lendületbe hozzák a sportot. Juan Manuel Fangio az uralkodó pilóta ebben az időben, ugyanis öt bajnokságot nyer meg négy különböző csapat számára.
-          </p>
-        </div>
-      </div>
-    </div>  
-  </body>
+</body>
+
 </html>
