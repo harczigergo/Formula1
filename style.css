@@ -3,9 +3,16 @@
     
 }
 
-.card img{
-    width: 1920px;
-    border: 2cm;
-    border-color: black;
-    
+.mclaren1{
+    float: right;
+    height: 25rem;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.mclaren2{
+    float: left;
+    margin-right: 20px;
+    width: 1275px;  
+    margin-top: 10px;
 }
