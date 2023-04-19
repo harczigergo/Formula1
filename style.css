@@ -15,6 +15,7 @@
     margin-right: 20px;
     width: 1275px;  
     margin-top: 10px;
+    padding: 0;
 }
 
 .alonso{
@@ -27,5 +28,31 @@
 
 .szin{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+.hamilton{
+    float: right;
+    height: 25rem;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.russell{
+    float: left;
+    height: 25rem;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.hatterml{
+    background-image: url(kepek/mclaren/R\ \(1\).jfif);
+}
+
+.naptarv{
+    background-color: black;
+    color: white;
+}
+
+.logok img{
+    width: 75px;
+    padding: 15px;
 }
