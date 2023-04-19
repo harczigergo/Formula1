@@ -11,117 +11,225 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="">
+<body class="text-white hatterml">
 
-    <nav class="navbar navbar-expand-lg bg-danger">
-        <div class="container-fluid bg-danger bg-gradient fst-italic fw-bold">
-            <a class="navbar-brand text-white " href="main.html"><img src="kepek/F1 logoo.png" alt="F1 Logo"
-                    title="F1 Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid bg-danger bg-gradient fst-italic fw-bold">
+                <a class="navbar-brand text-white " href="main.html"><img src="kepek/F1 logoo.png" alt="F1 Logo"
+                        title="F1 Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="szabalyok.html">Szabályok</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="versenypalyak.html">Versenypályák</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="tortenelem.html">Történelem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="versenynaptar.html">Versenynaptár</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Csapatok
+                            </a>
+                            <ul class="dropdown-menu bg-body-secondary  ">
+                                <li><a class="dropdown-item text-black fw-bold" href="mercedes.html">Mercedes</a></li>
+                                <li><a class="dropdown-item text-primary fw-bold" href="redbull.html">Red Bull</a></li>
+                                <li><a class="dropdown-item text-warning fw-bold" href="mclaren.html">Mclaren</a></li>
+                                <li><a class="dropdown-item text-danger fw-bold" href="">Ferrari</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="kepek/mercedes/mercedes-f1-logo.jpg" class="carouselkep d-block w-100" alt="Mercedes logo"
+                        title="Mercedes logo">
+                </div>
+                <div class="carousel-item">
+                    <img src="kepek/mercedes/mercedes.jpg" class="carouselkep d-block w-100" alt="Mercedes 2023" title="Mercedes 2023
+                ">
+                </div>
+                <div class="carousel-item">
+                    <img src="kepek/mercedes/merci duo.jpeg" class="carouselkep d-block w-100"
+                        alt="George Russel és Lewis Hamilton" title="George Russel és Lewis Hamilton">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="szabalyok.html">Szabályok</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="versenypalyak.html">Versenypályák</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="tortenelem.html">Történelem</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="versenynaptar.html">Versenynaptár</a>
-                    </li>
-                    <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Csapatok
-                        </a>
-                        <ul class="dropdown-menu bg-body-secondary  ">
-                            <li><a class="dropdown-item text-black fw-bold" href="mercedes.html">Mercedes</a></li>
-                            <li><a class="dropdown-item text-primary fw-bold" href="redbull.html">Red Bull</a></li>
-                            <li><a class="dropdown-item text-warning fw-bold" href="mclaren.html">Mclaren</a></li>
-                            <li><a class="dropdown-item text-danger fw-bold" href="">Ferrari</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="kepek/mercedes/mercedes-f1-logo.jpg" class="carouselkep d-block w-100" alt="Mercedes logo"
-                    title="Mercedes logo">
+    <div class="container">
+            <h1>Mercedes AMG F1</h1>
+            <p>A Mercedes egy német Formula–1-es csapat, ami 2010 óta a Brawn GP utódjaként vesz részt a Formula–1-es
+                világbajnokságban.A Mercedes-Benz
+                már az 1930-as években is részt vett Grand Prix versenyeken.1934 és 1939 között Silberpfeile (Ezüstnyilak)
+                névvel illették a Mercedes-Benz és az Auto Union igen sikeres versenyautóit.Ezüst színük a legenda szerint onnan
+                származik, hogy
+                a súlyuk csökkentésére lekaparták a festéket az autókról.</p>
+        <div>
+            <h3>Pilóta páros a 2023-as idényben</h3>
+            <div class="container">
+                <img src="kepek/mercedes/duo.JPG" alt="George Russell és Lewis Hamilton" title="George Russell és Lewis Hamilton"
+                        class="border border-white border-5 img-fluid mclaren1">
+                <div class="row col-lg-7 mt-4" style="text-align: justify;">
+                    <p style="text-align: justify"><span class="fw-bold"><a href="https://hu.wikipedia.org/wiki/Lewis_Hamilton" class="szin" target="_blank">Sir
+                                Lewis Carl Davidson Hamilton</a></span>, Brit autóversenyző, hétszeres
+                        Formula–1-es világbajnok. A Mercedes pilótája. Miután számos gokart-bajnokságot megnyert, Hamilton tizenkét
+                        éves korában szerződést kötött a McLaren-Mercedesszel, hogy később a csapatnál fog autózni. 2007-ben, a
+                        Formula–1-ben
+                        eltöltött első évében remekül teljesített, és a világbajnokság második helyét szerezte meg, mindössze egy
+                        ponttal maradt le az első helyről. 2008-ban megszerezte pályafutása első világbajnoki címét, majd
+                        2014-ben, 2015-ben, 2017-ben, 2018-ban, 2019-ben és 2020-ban is világbajnok tudott lenni.
+                        Futamgyőzelmek tekintetében Ő a legeredményesebb a Formula–1 történetében. A 2020-ban megszerezte 7.
+                        világbajnoki címét, és ezzel beérte Michael Schumacher rekordját. Ő az első a sportág történetében aki elérte a
+                        100-as álomhatárt a pole
+                        pozíciók és a futamgyőzelmek tekintetében. Több tekintélyes szaklap a Formula–1 „élő legendájának” tartja.
+                        2021. december 15-én lovaggá ütötték.
+                        <br>
+                        <span class="fw-bold"><a href="https://hu.wikipedia.org/wiki/George_Russell_(aut%C3%B3versenyz%C5%91)"
+                                class="szin" target="_blank">George William Russell</a></span>Brit autóversenyző, a 2017-es GP3-szezon
+                        és a 2018-as
+                        Formula–2 szezon bajnoka. 2019-től három szezonon át a Williams, majd 2022-től a Mercedes Formula–1-es
+                        csapatának versenyzője.Russell 2006-ban kezdte meg a gokartozást, majd 2009-ig haladt a kadét osztályon. 2018.
+                        október 12-én a Williams istálló hivatalosan is bejelentette, hogy a 2019-es világbajnoki szezonban ő lesz az
+                        egyik versenyzőjük. A gárda jelentősen lemaradva a mezőnytől, abszolút utolsó számú erőnek számított az
+                        évadban, Russell pedig egyetlen pontot sem tudott gyűjteni.</p>
+                </div> 
+            </div>   
+            <h3 class="text-center">A csapat eredményei</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Év</th>
+                        <th scope="col">Helyezés</th>
+                        <th scope="col">Pilóta páros</th>
+                        <th scope="col">Motor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">2010</th>
+                        <td>4.</td>
+                        <td>Michael Schumacher és Nico Rosberg</td>
+                        <td>Mercedes V8</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2011</th>
+                        <td>4.</td>
+                        <td>Michael Schumacher és Nico Rosberg</td>
+                        <td>Mercedes V8</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2012</th>
+                        <td>5.</td>
+                        <td>Michael Schumacher és Nico Rosberg</td>
+                        <td>Mercedes V8</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2013</th>
+                        <td>2.</td>
+                        <td>Lewis Hamilton és Nico Rosberg</td>
+                        <td>Mercedes V8</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2014</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Nico Rosberg</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2015</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Nico Rosberg</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2016</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Nico Rosberg</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2017</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Valtteri Bottas</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2018</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Valtteri Bottas</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2019</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Valtteri Bottas</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2020</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Valtteri Bottas</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2021</th>
+                        <td>1.</td>
+                        <td>Lewis Hamilton és Valtteri Bottas</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2022</th>
+                        <td>3.</td>
+                        <td>Lewis Hamilton és George Russell</td>
+                        <td>Mercedes V6 turbó</td>
+                    </tr> 
+                </tbody>
+            </table>
             </div>
-            <div class="carousel-item">
-                <img src="kepek/mercedes/mercedes.jpg" class="carouselkep d-block w-100" alt="Mercedes 2023" title="Mercedes 2023
-            ">
-            </div>
-            <div class="carousel-item">
-                <img src="kepek/mercedes/merci duo.jpeg" class="carouselkep d-block w-100"
-                    alt="George Russel és Lewis Hamilton" title="George Russel és Lewis Hamilton">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+            <div class="card text-center">
+                <div class="card-footer">
+                  Formula 1 2023
+                </div>
+                <div class="card-body logok">
+                  <h5 class="card-title">Itt láthatóak az alábbi elérhetőségeink a többi platformon</h5>
+                  <p class="card-text">Minket kövessenek ne az álmaikat!</p>
+                  <a href="https://www.instagram.com/f1/" target="_blank" ><img src="kepek/mclaren/logo.jfif" alt="Instagramm"></a>
+                  <a href="https://www.facebook.com/Formula1/" target="_blank" ><img src="kepek/fb.png" alt="Facebook"></a>
+                  <a href="https://twitter.com/f1" target="_blank"><img src="kepek/twitter.png" alt="Twitter"></a>
+                </div>
+              </div>
     </div>
-    <h1>Mercedes AMG F1</h1>
-    <p>A Mercedes egy német Formula–1-es csapat, ami 2010 óta a Brawn GP utódjaként vesz részt a Formula–1-es
-        világbajnokságban.A Mercedes-Benz
-        már az 1930-as években is részt vett Grand Prix versenyeken.1934 és 1939 között Silberpfeile (Ezüstnyilak)
-        névvel illették a Mercedes-Benz és az Auto Union igen sikeres versenyautóit.Ezüst színük a legenda szerint onnan
-        származik, hogy
-        a súlyuk csökkentésére lekaparták a festéket az autókról.</p>
-<div>
-    <h3>Pilóta páros</h3>
-    <p class="mb-2 container-fluid" style="text-align: justify"><span class="fw-bold"><a href="https://hu.wikipedia.org/wiki/Lewis_Hamilton" class="szin" target="_blank">Sir
-                Lewis Carl Davidson Hamilton</a></span>, Brit autóversenyző, hétszeres
-        Formula–1-es világbajnok. A Mercedes pilótája. Miután számos gokart-bajnokságot megnyert, Hamilton tizenkét
-        éves korában szerződést kötött a McLaren-Mercedesszel, hogy később a csapatnál fog autózni. 2007-ben, a
-        Formula–1-ben
-        eltöltött első évében remekül teljesített, és a világbajnokság második helyét szerezte meg, mindössze egy
-        ponttal maradt le az első helyről. 2008-ban megszerezte pályafutása első világbajnoki címét, majd
-        2014-ben, 2015-ben, 2017-ben, 2018-ban, 2019-ben és 2020-ban is világbajnok tudott lenni.
-        Futamgyőzelmek tekintetében Ő a legeredményesebb a Formula–1 történetében. A 2020-ban megszerezte 7.
-        világbajnoki címét, és ezzel beérte Michael Schumacher rekordját. Ő az első a sportág történetében aki elérte a
-        100-as álomhatárt a pole
-        pozíciók és a futamgyőzelmek tekintetében. Több tekintélyes szaklap a Formula–1 „élő legendájának” tartja.
-        2021. december 15-én lovaggá ütötték.
-        <br>
-        <span class="fw-bold"><a href="https://hu.wikipedia.org/wiki/George_Russell_(aut%C3%B3versenyz%C5%91)"
-                class="szin" target="_blank">George William Russell</a></span>Brit autóversenyző, a 2017-es GP3-szezon
-        és a 2018-as
-        Formula–2 szezon bajnoka. 2019-től három szezonon át a Williams, majd 2022-től a Mercedes Formula–1-es
-        csapatának versenyzője.Russell 2006-ban kezdte meg a gokartozást, majd 2009-ig haladt a kadét osztályon. 2018.
-        október 12-én a Williams istálló hivatalosan is bejelentette, hogy a 2019-es világbajnoki szezonban ő lesz az
-        egyik versenyzőjük. A gárda jelentősen lemaradva a mezőnytől, abszolút utolsó számú erőnek számított az
-        évadban, Russell pedig egyetlen pontot sem tudott gyűjteni.</p>
-        <img src="kepek/mercedes/george-russell.jpg" alt="George Russell" title="George Russell"
-        class="border border-white border-5 img-fluid">
-        <img src="kepek/mercedes/lewis-hamilton.jpg" alt="Lewis Hamilton" title="Lewis Hamilton"
-        class="float-end border border-white border-5 img-fluid">
-    </div>
-    
+
+</body>
