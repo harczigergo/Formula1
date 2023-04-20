@@ -108,7 +108,29 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Jegyezzen meg!</label>
         </div>
-        <button type="submit" class="btn btn-primary">Küldés</button>
+        
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Küldés
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-black" id="exampleModalLabel">Sikeres regisztráció!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-black">
+        Köszönjük regisztrációját, hamarosan jövünk a legfrissebb hírekkel!
+        <img src="kepek/red bull/kep.jpg" alt="Red_Bull" title="Red_Bull" class="red">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Vissza</button>   
+      </div>
+    </div>
+  </div>
+</div>
         <div class="form-floating">
           <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
           <label for="floatingTextarea" class="text-black">Ha bármi észrevétele van</label>
