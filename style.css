@@ -47,3 +47,8 @@
 .red{
     width: 475px;
 }
+
+.tablazat:hover{
+    background-color: rgba(200, 200, 200, 0.2);
+    
+}
